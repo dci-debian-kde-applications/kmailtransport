@@ -45,8 +45,8 @@ Package: libkf5mailtransport-data
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: libkf5mailtransport5 (<< 4:15.07.90+git20150819.1000)
-Replaces: libkf5mailtransport5 (<< 4:15.07.90+git20150819.1000)
+Breaks: libkf5mailtransport5 (<< 15.07.90+git20150819.1000)
+Replaces: libkf5mailtransport5 (<< 15.07.90+git20150819.1000)
 Description: mail transport service library - data files
  Mailtransport is a library that provides the following functionality:
  .
@@ -65,8 +65,8 @@ Multi-Arch: same
 Depends: libkf5mailtransport-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Breaks: libkf5mailtransport5 (<< 4:15.07.90+git20150819.1000)
-Replaces: libkf5mailtransport5 (<< 4:15.07.90+git20150819.1000)
+Breaks: libkf5mailtransport5 (<< 15.07.90+git20150819.1000)
+Replaces: libkf5mailtransport5 (<< 15.07.90+git20150819.1000)
 Description: mail transport service KCM
  Mailtransport is a library that provides the following functionality:
  .

@@ -1,6 +1,7 @@
 kmailtransport (15.08.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * new upstream release
+  * Removing hard coded epoch in control file (libkf5mailtransport5)
 
  -- Clive Johnston <clivejo@aol.com>  Thu, 20 Aug 2015 13:46:10 +0000
 
