@@ -1,0 +1,111 @@
+Source: kmailtransport
+Section: libs
+Priority: optional
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Build-Depends: cmake (>= 2.8.12~),
+               debhelper (>= 9),
+               extra-cmake-modules (>= 5.12.0~),
+               libkf5akonadi-dev,
+               libkf5akonadimime-dev,
+               libkf5configwidgets-dev,
+               libkf5kcmutils-dev,
+               libkf5kdelibs4support-dev,
+               libkf5mime-dev,
+               libkf5wallet-dev,
+               libsasl2-dev,
+               pkg-config,
+               pkg-kde-tools (>> 0.15.15),
+               qtbase5-dev
+Standards-Version: 3.9.6
+XS-Testsuite: autopkgtest
+Homepage: https://projects.kde.org/projects/kde/pim/kmailtransport
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/applications/kmailtransport.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/kmailtransport.git
+
+Package: libkf5mailtransport-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: foreign
+Depends: libkf5akonadimime-dev,
+         libkf5mailtransport5 (= ${binary:Version}),
+         libkf5mime-dev,
+         libkf5wallet-dev,
+         libsasl2-dev,
+         ${misc:Depends}
+Description: mail transport service library - development files
+ Mailtransport is a library that provides the following functionality:
+ .
+  * Shared mail transport settings.
+  * GUI elements to configure mail transport settings.
+  * Job classes for mail sending.
+ .
+ This package contains the development files.
+
+Package: libkf5mailtransport-data
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libkf5mailtransport5 (<< 15.07.90+git20150819.1000)
+Replaces: libkf5mailtransport5 (<< 15.07.90+git20150819.1000)
+Description: mail transport service library - data files
+ Mailtransport is a library that provides the following functionality:
+ .
+  * Shared mail transport settings.
+  * GUI elements to configure mail transport settings.
+  * Job classes for mail sending.
+ .
+ This package also contains a KDE control module which can be embedded
+ into your application to provide mail transport configuration.
+ .
+ This package contains data files.
+
+Package: kde-config-mailtransport
+Architecture: any
+Multi-Arch: same
+Depends: libkf5mailtransport-data (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Breaks: libkf5mailtransport5 (<< 15.07.90+git20150819.1000)
+Replaces: libkf5mailtransport5 (<< 15.07.90+git20150819.1000)
+Description: mail transport service KCM
+ Mailtransport is a library that provides the following functionality:
+ .
+  * Shared mail transport settings.
+  * GUI elements to configure mail transport settings.
+  * Job classes for mail sending.
+ .
+ This package also contains a KDE control module which can be embedded
+ into your application to provide mail transport configuration.
+
+Package: libkf5mailtransport5
+Architecture: any
+Multi-Arch: same
+Depends: libkf5mailtransport-data (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Recommends: kde-config-mailtransport
+Description: mail transport service library
+ Mailtransport is a library that provides the following functionality:
+ .
+  * Shared mail transport settings.
+  * GUI elements to configure mail transport settings.
+  * Job classes for mail sending.
+ .
+ This package also contains a KDE control module which can be embedded
+ into your application to provide mail transport configuration.
+
+Package: libkf5mailtransport-dbg
+Section: debug
+Priority: extra
+Architecture: any
+Multi-Arch: same
+Depends: kde-config-mailtransport (= ${binary:Version}) | libkf5mailtransport5 (= ${binary:Version}),
+         ${misc:Depends}
+Description: mail transport service library - debug symbols
+ Mailtransport is a library that provides the following functionality:
+ .
+  * Shared mail transport settings.
+  * GUI elements to configure mail transport settings.
+  * Job classes for mail sending.
+ .
+ This package contains the debug symbols.

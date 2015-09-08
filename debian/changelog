@@ -1,0 +1,16 @@
+kmailtransport (15.08.0-0ubuntu1) wily; urgency=medium
+
+  * new upstream release
+  * Removing hard coded epoch in control file (libkf5mailtransport5)
+
+ -- Clive Johnston <clivejo@aol.com>  Wed, 26 Aug 2015 17:30:10 +0100
+
+kmailtransport (15.07.90-0ubuntu1) wily; urgency=medium
+
+  [ Harald Sitter ]
+  * Initial release
+
+  [ Jonathan Riddell ]
+  * new upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 18 Aug 2015 10:33:56 +0100
