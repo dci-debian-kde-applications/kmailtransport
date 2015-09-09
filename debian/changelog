@@ -1,8 +1,8 @@
-kmailtransport (15.08.0-1~) UNRELEASED; urgency=medium
+kmailtransport (15.08.0-1) experimental; urgency=medium
 
   * Initial Debian release.
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 09 Sep 2015 11:19:08 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 09 Sep 2015 19:10:46 +0200
 
 kmailtransport (15.08.0-0ubuntu1) wily; urgency=medium
 
