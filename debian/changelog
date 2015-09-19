@@ -1,8 +1,8 @@
-kmailtransport (15.08.1-1~) UNRELEASED; urgency=medium
+kmailtransport (15.08.1-1) experimental; urgency=medium
 
   * New upstream release (15.08.1).
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 17 Sep 2015 19:44:05 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 19 Sep 2015 03:16:25 +0200
 
 kmailtransport (15.08.0-1) experimental; urgency=medium
 
