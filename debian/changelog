@@ -1,6 +1,7 @@
 kmailtransport (15.08.1-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release (15.08.1)
+  * Updating symbols
 
  -- Clive Johnston <clivejo@aol.com>  Wed, 16 Sep 2015 23:50:09 +0100
 
