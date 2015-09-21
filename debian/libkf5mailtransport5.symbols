@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 15.08.0 amd64
+# SymbolsHelper-Confirmed: 15.08.1 amd64 i386
 libKF5MailTransport.so.5 libkf5mailtransport5 #MINVER#
  _ZN13MailTransport10ServerTest11progressBarEv@Base 15.08.0
  _ZN13MailTransport10ServerTest11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.08.0
@@ -414,6 +414,12 @@ libKF5MailTransport.so.5 libkf5mailtransport5 #MINVER#
  _ZTVN13MailTransport9TransportE@Base 15.08.0
  _ZTVN7Akonadi12FilterActionE@Base 15.08.0
  _ZTVN7Akonadi15FilterActionJobE@Base 15.08.0
+ _ZZZN13MailTransport13TransportBase11setUserNameERK7QStringENKUlvE_clEvE15qstring_literal@Base 15.08.1
+ _ZZZN13MailTransport13TransportBase16setStorePasswordEbENKUlvE_clEvE15qstring_literal@Base 15.08.1
+ _ZZZN13MailTransport13TransportBase5setIdEiENKUlvE_clEvE15qstring_literal@Base 15.08.1
+ _ZZZN13MailTransport13TransportBase7setHostERK7QStringENKUlvE_clEvE15qstring_literal@Base 15.08.1
+ _ZZZN13MailTransport13TransportBase7setNameERK7QStringENKUlvE_clEvE15qstring_literal@Base 15.08.1
+ _ZZZN13MailTransport13TransportBase7setTypeEiENKUlvE_clEvE15qstring_literal@Base 15.08.1
  (c++)"non-virtual thunk to MailTransport::ServerTest::~ServerTest()@Base" 15.08.0
  (c++)"non-virtual thunk to MailTransport::TransportComboBox::~TransportComboBox()@Base" 15.08.0
  (c++)"non-virtual thunk to MailTransport::TransportConfigDialog::~TransportConfigDialog()@Base" 15.08.0
