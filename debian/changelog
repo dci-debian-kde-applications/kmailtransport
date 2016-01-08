@@ -1,6 +1,10 @@
 kmailtransport (15.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Clive Johnston ]
   * New upstream release
+
+  [ Scarlett Clark ]
+  * Bump the version requirement for akonadi build dep 
 
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 14:02:56 +0000
 
