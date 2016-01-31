@@ -93,19 +93,3 @@ Description: mail transport service library
  .
  This package also contains a KDE control module which can be embedded
  into your application to provide mail transport configuration.
-
-Package: libkf5mailtransport-dbg
-Section: debug
-Priority: extra
-Architecture: any
-Multi-Arch: same
-Depends: kde-config-mailtransport (= ${binary:Version}) | libkf5mailtransport5 (= ${binary:Version}),
-         ${misc:Depends}
-Description: mail transport service library - debug symbols
- Mailtransport is a library that provides the following functionality:
- .
-  * Shared mail transport settings.
-  * GUI elements to configure mail transport settings.
-  * Job classes for mail sending.
- .
- This package contains the debug symbols.
