@@ -1,3 +1,16 @@
+kmailtransport (15.12.1-1ubuntu1) UNRELEASED; urgency=medium
+
+  * Debian merge: No remaining changes.
+  * New upstream release. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 03 Feb 2016 05:37:35 -0800
+
+kmailtransport (15.12.0-1) experimental; urgency=medium
+
+  * New upstream release (15.12.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 01 Feb 2016 10:22:30 +0100
+
 kmailtransport (15.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Clive Johnston ]
@@ -15,12 +28,24 @@ kmailtransport (15.08.2-0ubuntu1) wily; urgency=medium
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 14 Oct 2015 12:33:42 +0100
 
+kmailtransport (15.08.1-1) experimental; urgency=medium
+
+  * New upstream release (15.08.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 19 Sep 2015 03:16:25 +0200
+
 kmailtransport (15.08.1-0ubuntu1) wily; urgency=medium
 
   * New upstream release (15.08.1)
   * Adding new and removing MISSING symbols
 
  -- Clive Johnston <clivejo@aol.com>  Tue, 22 Sep 2015 17:07:21 +0100
+
+kmailtransport (15.08.0-1) experimental; urgency=medium
+
+  * Initial Debian release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 09 Sep 2015 19:10:46 +0200
 
 kmailtransport (15.08.0-0ubuntu1) wily; urgency=medium
 
