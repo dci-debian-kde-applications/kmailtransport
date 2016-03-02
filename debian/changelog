@@ -1,7 +1,11 @@
 kmailtransport (15.12.1-1ubuntu1) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
   * Debian merge: No remaining changes.
   * New upstream release. 
+
+  [ Clive Johnston ]
+  * Updating build dep package to new name libkf5akonadiserver-dev  
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 03 Feb 2016 05:37:35 -0800
 
