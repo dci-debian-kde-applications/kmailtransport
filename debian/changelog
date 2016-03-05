@@ -2,6 +2,7 @@ kmailtransport (15.12.1-1ubuntu1) UNRELEASED; urgency=medium
 
   * Debian merge: No remaining changes.
   * New upstream release. 
+  * Bump build depend version on pim*. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 03 Feb 2016 05:37:35 -0800
 
