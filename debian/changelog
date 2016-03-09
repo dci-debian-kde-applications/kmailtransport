@@ -1,3 +1,10 @@
+kmailtransport (15.12.1-1ubuntu2) xenial; urgency=medium
+
+  * Add missing epochs to akonadi* build deps.
+  * Fix versions on runtime deps. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 09 Mar 2016 14:48:48 -0800
+
 kmailtransport (15.12.1-1ubuntu1) xenial; urgency=medium
 
   * Debian merge: No remaining changes.
