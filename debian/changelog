@@ -1,4 +1,11 @@
-kmailtransport (15.12.1-1ubuntu1) UNRELEASED; urgency=medium
+kmailtransport (15.12.1-1ubuntu2) xenial; urgency=medium
+
+  * Add missing epochs to akonadi* build deps.
+  * Fix versions on runtime deps. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 09 Mar 2016 14:48:48 -0800
+
+kmailtransport (15.12.1-1ubuntu1) xenial; urgency=medium
 
   [ Scarlett Clark ]
   * Debian merge: No remaining changes.
@@ -11,7 +18,7 @@ kmailtransport (15.12.1-1ubuntu1) UNRELEASED; urgency=medium
   [ Scarlett Clark ]
   * Bump build depend version on pim*. 
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 03 Feb 2016 05:37:35 -0800
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 09 Mar 2016 10:51:40 +0100
 
 kmailtransport (15.12.0-1) experimental; urgency=medium
 
