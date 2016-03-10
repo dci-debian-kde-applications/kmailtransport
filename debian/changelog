@@ -1,6 +1,7 @@
 kmailtransport (15.12.2-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream bugfix release
+  * Fix runtime dep versions -dev. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 09 Mar 2016 21:39:40 -0800
 
