@@ -26,9 +26,9 @@ Package: libkf5mailtransport-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: foreign
-Depends: libkf5akonadimime-dev (>= ${binary:Version}),
+Depends: libkf5akonadimime-dev (>= 4:15.12~),
          libkf5mailtransport5 (= ${binary:Version}),
-         libkf5mime-dev (>= ${binary:Version}),
+         libkf5mime-dev (>= 15.12~),
          libkf5wallet-dev (>= 5.14.0~),
          libsasl2-dev,
          ${misc:Depends}
