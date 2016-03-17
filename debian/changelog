@@ -1,9 +1,10 @@
-kmailtransport (15.12.2-0ubuntu1) UNRELEASED; urgency=medium
+kmailtransport (15.12.3-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream bugfix release
   * Fix runtime dep versions -dev. 
+  * New upstream bugfix release
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 09 Mar 2016 21:39:40 -0800
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 16 Mar 2016 19:53:15 -0700
 
 kmailtransport (15.12.1-1ubuntu3) xenial; urgency=medium
 
