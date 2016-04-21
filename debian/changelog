@@ -1,10 +1,12 @@
-kmailtransport (15.12.0-3~1.gbp6ad82f) UNRELEASED; urgency=medium
+kmailtransport (16.04.0-1~1.gbp1118a3) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @6ad82fa4d984fa98aac3e73ffae9226318610a1a **
+  ** SNAPSHOT build @1118a3a657e21725ed4edb00c653b6dce76a38e7 **
 
   * Bump Standards-Version to 3.9.8
+  * Add a .gitattributes file to use dpkg-mergechangelogs
+  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 12:16:04 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 04:15:28 +0200
 
 kmailtransport (15.12.0-2) experimental; urgency=medium
 
