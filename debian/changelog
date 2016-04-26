@@ -1,12 +1,21 @@
-kmailtransport (16.04.0-1~1.gbp1118a3) UNRELEASED; urgency=medium
+kmailtransport (16.04.0-1~2.gbpf46b81) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @f46b8128d311c9f23d5d9ecd765f45222ff644c2 **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @1118a3a657e21725ed4edb00c653b6dce76a38e7 **
 
   * Bump Standards-Version to 3.9.8
   * Add a .gitattributes file to use dpkg-mergechangelogs
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 04:15:28 +0200
+  [ Maximiliano Curia ]
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Update install files
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 26 Apr 2016 22:57:39 +0200
 
 kmailtransport (15.12.0-2) experimental; urgency=medium
 
