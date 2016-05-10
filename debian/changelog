@@ -1,6 +1,6 @@
-kmailtransport (16.04.0-1~2.gbpf46b81) UNRELEASED; urgency=medium
+kmailtransport (16.04.1-1~1.gbpca39da) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @f46b8128d311c9f23d5d9ecd765f45222ff644c2 **
+  ** SNAPSHOT build @ca39da80390128ae7c86e8caaeabeb4c83ab5fdf **
 
   [ Automatic packaging ]
   ** SNAPSHOT build @1118a3a657e21725ed4edb00c653b6dce76a38e7 **
@@ -14,8 +14,9 @@ kmailtransport (16.04.0-1~2.gbpf46b81) UNRELEASED; urgency=medium
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
   * Update install files
+  * UNRELEASED
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 26 Apr 2016 22:57:39 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 10 May 2016 22:15:22 +0200
 
 kmailtransport (15.12.0-2) experimental; urgency=medium
 
