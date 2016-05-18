@@ -1,3 +1,9 @@
+kmailtransport (16.04.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 18 May 2016 18:17:14 +0200
+
 kmailtransport (16.04.0-1~1.gbp1118a3) UNRELEASED; urgency=medium
 
   ** SNAPSHOT build @1118a3a657e21725ed4edb00c653b6dce76a38e7 **
