@@ -1,10 +1,6 @@
-kmailtransport (16.04.1-1~1.gbpca39da) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @ca39da80390128ae7c86e8caaeabeb4c83ab5fdf **
+kmailtransport (16.04.1-1) experimental; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @1118a3a657e21725ed4edb00c653b6dce76a38e7 **
-
   * Bump Standards-Version to 3.9.8
   * Add a .gitattributes file to use dpkg-mergechangelogs
   * Update build-deps and deps with the info from cmake
@@ -14,9 +10,8 @@ kmailtransport (16.04.1-1~1.gbpca39da) UNRELEASED; urgency=medium
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
   * Update install files
-  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 10 May 2016 22:15:22 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 31 May 2016 17:06:44 +0200
 
 kmailtransport (15.12.0-2) experimental; urgency=medium
 
