@@ -1,10 +1,8 @@
-kmailtransport (16.04.2-1~1.gbpff87bb) UNRELEASED; urgency=medium
+kmailtransport (16.04.2-1) experimental; urgency=medium
 
-  ** SNAPSHOT build @ff87bb8fb15225a8087b994da4dfa61da5877fbe **
+  * New upstream release.
 
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Wed, 15 Jun 2016 04:15:11 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 28 Jun 2016 09:37:01 +0200
 
 kmailtransport (16.04.1-1) experimental; urgency=medium
 
