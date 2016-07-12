@@ -1,3 +1,11 @@
+kmailtransport (16.04.3-1~1.gbp202550) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @2025508d75fbb476cf9823ce3b2759fffc2c6424 **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 12 Jul 2016 22:15:11 +0200
+
 kmailtransport (16.04.2-2) unstable; urgency=medium
 
   * Release to unstable.
