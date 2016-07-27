@@ -1,18 +1,29 @@
-kmailtransport (16.04.1-0neon) xenial; urgency=medium
+kmailtransport (16.04.2-2) unstable; urgency=medium
 
-  * New release
+  * Release to unstable.
 
- -- Neon CI <neon@kde.org>  Wed, 18 May 2016 18:17:14 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 05 Jul 2016 13:59:14 +0200
 
-kmailtransport (16.04.0-1~1.gbp1118a3) UNRELEASED; urgency=medium
+kmailtransport (16.04.2-1) experimental; urgency=medium
 
-  ** SNAPSHOT build @1118a3a657e21725ed4edb00c653b6dce76a38e7 **
+  * New upstream release.
 
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 28 Jun 2016 09:37:01 +0200
+
+kmailtransport (16.04.1-1) experimental; urgency=medium
+
+  [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
   * Add a .gitattributes file to use dpkg-mergechangelogs
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 04:15:28 +0200
+  [ Maximiliano Curia ]
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Update install files
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 31 May 2016 17:06:44 +0200
 
 kmailtransport (15.12.0-2) experimental; urgency=medium
 
