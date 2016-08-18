@@ -5,18 +5,19 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.19.0~),
+               extra-cmake-modules (>= 5.23.0~),
+               kdoctools-dev (>= 5.23.0~),
                libkf5akonadi-dev (>= 4:15.12~),
                libkf5akonadimime-dev (>= 4:15.12~),
-               libkf5configwidgets-dev (>= 5.19.0~),
-               libkf5kcmutils-dev (>= 5.19.0~),
+               libkf5configwidgets-dev (>= 5.23.0~),
+               libkf5kcmutils-dev (>= 5.23.0~),
                libkf5kdelibs4support-dev (>= 5.12.0~),
                libkf5mime-dev (>= 15.12~),
-               libkf5wallet-dev (>= 5.19.0~),
+               libkf5wallet-dev (>= 5.23.0~),
                libsasl2-dev,
                pkg-config,
                pkg-kde-tools (>> 0.15.15),
-               qtbase5-dev
+               qtbase5-dev (>= 5.5.0~)
 Standards-Version: 3.9.8
 Homepage: https://projects.kde.org/projects/kde/pim/kmailtransport
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kmailtransport.git
@@ -26,10 +27,10 @@ Package: libkf5mailtransport-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: foreign
-Depends: libkf5akonadimime-dev (>= 5.2.0~),
+Depends: libkf5akonadimime-dev (>= 5.3.0~),
          libkf5mailtransport5 (= ${binary:Version}),
-         libkf5mime-dev (>= 5.2.0~),
-         libkf5wallet-dev (>= 5.19.0~),
+         libkf5mime-dev (>= 5.3.0~),
+         libkf5wallet-dev (>= 5.23.0~),
          libsasl2-dev,
          ${misc:Depends}
 Description: mail transport service library - development files
