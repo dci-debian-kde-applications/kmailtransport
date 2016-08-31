@@ -1,0 +1,6 @@
+etc/xdg/kmailtransport.categories
+usr/lib/*/qt5/plugins/kf5/kio/smtp.so
+usr/share/doc/HTML/en/kioslave5/smtp/index.cache.bz2
+usr/share/doc/HTML/en/kioslave5/smtp/index.docbook
+usr/share/kservices5/smtp.protocol
+usr/share/kservices5/smtps.protocol
