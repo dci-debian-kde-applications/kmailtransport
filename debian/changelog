@@ -1,6 +1,6 @@
-kmailtransport (16.08.0-1~1.gbpba8363) UNRELEASED; urgency=medium
+kmailtransport (16.08.0-1~2.gbp6b5de1) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @ba83630f774ff111fd78beda43ded93332f0e46a **
+  ** SNAPSHOT build @6b5de10e0edcea995051ad8fc204ba324720466c **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @2025508d75fbb476cf9823ce3b2759fffc2c6424 **
@@ -9,8 +9,18 @@ kmailtransport (16.08.0-1~1.gbpba8363) UNRELEASED; urgency=medium
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
+  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 18 Aug 2016 22:15:20 +0200
+  [ Neon CI ]
+  * New release
+  * New release
+  * New release
+
+  [ Jonathan Riddell ]
+  * NOCI
+  * add kio-smtp
+
+ -- Neon CI <neon@kde.org>  Wed, 31 Aug 2016 10:56:01 +0200
 
 kmailtransport (16.08.0-0neon) xenial; urgency=medium
 
