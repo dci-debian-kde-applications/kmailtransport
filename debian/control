@@ -37,6 +37,23 @@ Description: mail transport service library
  .
  This package contains the smtp kio slave.
 
+Package: kmailtransport-smtp
+Architecture: any
+Multi-Arch: no
+Depends: libkf5mailtransport5 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Replaces: ${kde-l10n:all}
+Breaks: ${kde-l10n:all}
+Description: mail transport smtp library
+ Mailtransport is a library that provides the following functionality:
+ .
+  * Shared mail transport settings.
+  * GUI elements to configure mail transport settings.
+  * Job classes for mail sending.
+ .
+ This package contains the smtp plugin.
+
 Package: libkf5mailtransport-dev
 Section: libdevel
 Architecture: any
