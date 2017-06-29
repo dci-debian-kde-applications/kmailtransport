@@ -1,6 +1,7 @@
 etc/xdg/kmailtransport.categories
 etc/xdg/kmailtransport.renamecategories
 usr/lib/*/qt5/plugins/kf5/kio/smtp.so
+usr/lib/*/qt5/plugins/mailtransport/mailtransport_smtpplugin.so
 usr/share/doc/HTML/*/kioslave5/smtp/index.cache.bz2
 usr/share/doc/HTML/*/kioslave5/smtp/index.docbook
 usr/share/kservices5/smtp.protocol
