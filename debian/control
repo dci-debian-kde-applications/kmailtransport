@@ -6,8 +6,6 @@ Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
                extra-cmake-modules (>= 5.23.0~),
-               libkf5doctools-dev (>= 5.23.0~),
-               libkf5kio-dev (>= 5.23.0~),
                libkf5akonadi-dev (>= 4:15.12~),
                libkf5akonadimime-dev (>= 4:15.12~),
                libkf5configwidgets-dev (>= 5.23.0~),
@@ -15,17 +13,36 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5i18n-dev (>= 5.23.0~),
                libkf5kcmutils-dev (>= 5.23.0~),
                libkf5kdelibs4support-dev (>= 5.12.0~),
+               libkf5kio-dev (>= 5.23.0~),
                libkf5mime-dev (>= 15.12~),
                libkf5textwidgets-dev (>= 5.23.0~),
                libkf5wallet-dev (>= 5.23.0~),
                libsasl2-dev,
                pkg-config,
                pkg-kde-tools (>> 0.15.15),
-               qtbase5-dev (>= 5.5.0~)
+               qtbase5-dev (>= 5.5.0~),
 Standards-Version: 4.0.1
 Homepage: https://projects.kde.org/projects/kde/pim/kmailtransport
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kmailtransport.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kmailtransport.git
+
+Package: kde-config-mailtransport
+Architecture: any
+Multi-Arch: same
+Depends: libkf5mailtransport-data (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends},
+Breaks: libkf5mailtransport5 (<< 15.07.90+git20150819.1000)
+Replaces: libkf5mailtransport5 (<< 15.07.90+git20150819.1000)
+Description: mail transport service KCM
+ Mailtransport is a library that provides the following functionality:
+ .
+  * Shared mail transport settings.
+  * GUI elements to configure mail transport settings.
+  * Job classes for mail sending.
+ .
+ This package also contains a KDE control module which can be embedded
+ into your application to provide mail transport configuration.
 
 Package: kio-smtp
 Architecture: any
@@ -47,7 +64,7 @@ Architecture: any
 Multi-Arch: no
 Depends: libkf5mailtransport5 (= ${binary:Version}),
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Replaces: ${kde-l10n:all}
 Breaks: ${kde-l10n:all}
 Description: mail transport akonadi library
@@ -58,26 +75,6 @@ Description: mail transport akonadi library
   * Job classes for mail sending.
  .
  This package contains the akonadi plugin.
-
-Package: libkf5mailtransport-dev
-Section: libdevel
-Architecture: any
-Multi-Arch: foreign
-Depends: libkf5akonadimime-dev (>= 5.3.1~),
-         libkf5mailtransport5 (= ${binary:Version}),
-         libkf5mailtransportakonadi5 (= ${binary:Version}),
-         libkf5mime-dev (>= 5.3.1~),
-         libkf5wallet-dev (>= 5.23.0~),
-         libsasl2-dev,
-         ${misc:Depends}
-Description: mail transport service library - development files
- Mailtransport is a library that provides the following functionality:
- .
-  * Shared mail transport settings.
-  * GUI elements to configure mail transport settings.
-  * Job classes for mail sending.
- .
- This package contains the development files.
 
 Package: libkf5mailtransport-data
 Architecture: all
@@ -97,30 +94,32 @@ Description: mail transport service library - data files
  .
  This package contains data files.
 
-Package: kde-config-mailtransport
+Package: libkf5mailtransport-dev
+Section: libdevel
 Architecture: any
-Multi-Arch: same
-Depends: libkf5mailtransport-data (= ${source:Version}),
+Multi-Arch: foreign
+Depends: libkf5akonadimime-dev (>= 5.3.1~),
+         libkf5mailtransport5 (= ${binary:Version}),
+         libkf5mailtransportakonadi5 (= ${binary:Version}),
+         libkf5mime-dev (>= 5.3.1~),
+         libkf5wallet-dev (>= 5.23.0~),
+         libsasl2-dev,
          ${misc:Depends},
-         ${shlibs:Depends}
-Breaks: libkf5mailtransport5 (<< 15.07.90+git20150819.1000)
-Replaces: libkf5mailtransport5 (<< 15.07.90+git20150819.1000)
-Description: mail transport service KCM
+Description: mail transport service library - development files
  Mailtransport is a library that provides the following functionality:
  .
   * Shared mail transport settings.
   * GUI elements to configure mail transport settings.
   * Job classes for mail sending.
  .
- This package also contains a KDE control module which can be embedded
- into your application to provide mail transport configuration.
+ This package contains the development files.
 
 Package: libkf5mailtransport5
 Architecture: any
 Multi-Arch: same
 Depends: libkf5mailtransport-data (= ${source:Version}),
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Recommends: kde-config-mailtransport
 Breaks: ${kde-l10n:all}
 Replaces: ${kde-l10n:all}
@@ -139,7 +138,7 @@ Architecture: any
 Multi-Arch: same
 Depends: libkf5mailtransport-data (= ${source:Version}),
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Recommends: kde-config-mailtransport
 Description: mail transport service library for akonadi
  Mailtransport is a library that provides the following functionality:
