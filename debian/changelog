@@ -1,3 +1,12 @@
+kmailtransport (17.08.0-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (17.08.0)
+  * Bump Standards-Version to 4.0.1.
+  * Update upstream metadata
+  * Update build-deps and deps with the info from cmake
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 22 Aug 2017 13:11:05 +0200
+
 kmailtransport (17.08.0-0neon) xenial; urgency=medium
 
   * New release
@@ -63,31 +72,6 @@ kmailtransport (16.08.2-0neon) xenial; urgency=medium
   * New release
 
  -- Neon CI <neon@kde.org>  Fri, 14 Oct 2016 13:40:25 +0000
-
-kmailtransport (16.08.1-1~1.gbp8dd344) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @8dd34465d2eb28f8b7af18b55e6c07f14f927dbf **
-
-  [ Maximiliano Curia ]
-  ** SNAPSHOT build @2025508d75fbb476cf9823ce3b2759fffc2c6424 **
-
-  * UNRELEASED
-
-  [ Automatic packaging ]
-  * Update build-deps and deps with the info from cmake
-  * Update build-deps and deps with the info from cmake
-  * Update build-deps and deps with the info from cmake
-
-  [ Neon CI ]
-  * New release
-  * New release
-  * New release
-
-  [ Jonathan Riddell ]
-  * NOCI
-  * add kio-smtp
-
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 08 Sep 2016 22:15:40 +0200
 
 kmailtransport (16.08.1-0neon) xenial; urgency=medium
 
