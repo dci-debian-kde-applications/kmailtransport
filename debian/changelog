@@ -91,6 +91,13 @@ kmailtransport (16.04.3-0neon) xenial; urgency=medium
 
  -- Neon CI <neon@kde.org>  Wed, 03 Aug 2016 12:51:14 +0000
 
+kmailtransport (16.04.2-3) unstable; urgency=medium
+
+  * Bump akonadi-dev build dep.
+    Thanks to Santiago Vila for reporting (Closes: 834273)
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 20 Oct 2016 11:02:01 +0200
+
 kmailtransport (16.04.2-2) unstable; urgency=medium
 
   * Release to unstable.
