@@ -1,11 +1,12 @@
-kmailtransport (17.08.0-1~) UNRELEASED; urgency=medium
+kmailtransport (17.08.0-1) experimental; urgency=medium
 
   * New upstream release (17.08.0)
   * Bump Standards-Version to 4.0.1.
   * Update upstream metadata
   * Update build-deps and deps with the info from cmake
+  * Release to experimental
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 22 Aug 2017 13:11:05 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 01 Sep 2017 22:18:50 +0200
 
 kmailtransport (17.08.0-0neon) xenial; urgency=medium
 
