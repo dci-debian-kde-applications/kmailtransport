@@ -48,16 +48,8 @@ Package: kio-smtp
 Architecture: any
 Multi-Arch: no
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: kde-l10n-ast (<< 4:17.03.90-0~),
-          kde-l10n-eo (<< 4:17.03.90-0~),
-          kdepimlibs-kio-plugins,
-          kf5-kdepimlibs-kio-plugins,
-          ${kde-l10n:all},
-Breaks: kde-l10n-ast (<< 4:17.03.90-0~),
-        kde-l10n-eo (<< 4:17.03.90-0~),
-        kdepimlibs-kio-plugins,
-        kf5-kdepimlibs-kio-plugins,
-        ${kde-l10n:all},
+Replaces: kdepimlibs-kio-plugins, kf5-kdepimlibs-kio-plugins, ${kde-l10n:all}
+Breaks: kdepimlibs-kio-plugins, kf5-kdepimlibs-kio-plugins, ${kde-l10n:all}
 Description: mail transport service library
  Mailtransport is a library that provides the following functionality:
  .
@@ -73,12 +65,8 @@ Multi-Arch: no
 Depends: libkf5mailtransport5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends},
-Replaces: kde-l10n-ast (<< 4:17.03.90-0~),
-          kde-l10n-eo (<< 4:17.03.90-0~),
-          ${kde-l10n:all},
-Breaks: kde-l10n-ast (<< 4:17.03.90-0~),
-        kde-l10n-eo (<< 4:17.03.90-0~),
-        ${kde-l10n:all},
+Replaces: ${kde-l10n:all}
+Breaks: ${kde-l10n:all}
 Description: mail transport akonadi library
  Mailtransport is a library that provides the following functionality:
  .
@@ -136,8 +124,6 @@ Depends: libkf5mailtransport-data (= ${source:Version}),
 Recommends: kde-config-mailtransport
 Breaks: accountwizard (<< 4:17.08),
         kalarm (<< 4:17.08),
-        kde-l10n-ast (<< 4:17.03.90-0~),
-        kde-l10n-eo (<< 4:17.03.90-0~),
         kdepim-runtime (<< 4:17.08),
         kmail (<< 4:17.08),
         korganizer (<< 4:17.08),
@@ -146,9 +132,7 @@ Breaks: accountwizard (<< 4:17.08),
         libkf5messagecomposer5 (<< 4:17.08),
         libkf5messageviewer5 (<< 4:17.08),
         ${kde-l10n:all},
-Replaces: kde-l10n-ast (<< 4:17.03.90-0~),
-          kde-l10n-eo (<< 4:17.03.90-0~),
-          ${kde-l10n:all},
+Replaces: ${kde-l10n:all}
 Description: mail transport service library
  Mailtransport is a library that provides the following functionality:
  .
