@@ -4,6 +4,7 @@ kmailtransport (4:17.08.3-1) UNRELEASED; urgency=medium
   * New upstream release (17.08.3).
   * Bump Standards-Version to 4.1.2 (No changes needed).
   * Get rid of unnessary break/replaces of kde-l10n-(ast|eo).
+  * Remove not needed Build-Deps.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 15 Dec 2017 11:13:00 +0100
 
