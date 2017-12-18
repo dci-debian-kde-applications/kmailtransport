@@ -1,2 +1,2 @@
-rm_conffile /etc/xdg/kmailtransport.categories 17.04.3+p16.04+git20170809.1742-0 kio-smtp
-rm_conffile /etc/xdg/kmailtransport.renamecategories 17.04.3+p16.04+git20170809.1742-0 kio-smtp
+rm_conffile /etc/xdg/kmailtransport.categories 17.12.0 kio-smtp
+rm_conffile /etc/xdg/kmailtransport.renamecategories 17.12.0 kio-smtp
