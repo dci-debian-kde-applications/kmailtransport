@@ -1,2 +1,2 @@
-rm_conffile /etc/xdg/kmailtransport.categories 17.08.3-0neon+16.04+xenial+build21 kio-smtp
-rm_conffile /etc/xdg/kmailtransport.renamecategories 17.08.3-0neon+16.04+xenial+build21 kio-smtp
+rm_conffile /etc/xdg/kmailtransport.categories 17.08.3-0neon+16.04+xenial+build30 kio-smtp
+rm_conffile /etc/xdg/kmailtransport.renamecategories 17.08.3-0neon+16.04+xenial+build30 kio-smtp
