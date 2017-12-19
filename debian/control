@@ -103,8 +103,8 @@ Depends: libkf5mailtransport-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Recommends: kde-config-mailtransport
-Breaks: kio-smtp (<< 17.12.0), ${kde-l10n:all}
-Replaces: kio-smtp (<< 17.12.0), ${kde-l10n:all}
+Breaks: kio-smtp (<< 17.08.3-0neon+16.04+xenial+build32), ${kde-l10n:all}
+Replaces: kio-smtp (<< 17.08.3-0neon+16.04+xenial+build32), ${kde-l10n:all}
 Description: mail transport service library
  Mailtransport is a library that provides the following functionality:
  .
