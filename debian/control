@@ -133,3 +133,11 @@ Description: mail transport service library for akonadi
  .
  This package also contains a KDE control module which can be embedded
  into your application to provide mail transport configuration.
+
+ Package: kio-smtp
+Section: oldlibs
+Architecture: all
+Priority: extra
+Depends: libkf5mailtransport5, ${misc:Depends}
+Description: transitional package
+ This is a transitional package. It can safely be removed.
