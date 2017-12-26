@@ -47,8 +47,8 @@ Package: kio-smtp
 Architecture: any
 Multi-Arch: no
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: kdepimlibs-kio-plugins, kf5-kdepimlibs-kio-plugins, ${kde-l10n:all}
-Breaks: kdepimlibs-kio-plugins, kf5-kdepimlibs-kio-plugins, ${kde-l10n:all}
+Replaces: kf5-kdepimlibs-kio-plugins, ${kde-l10n:all}
+Breaks: kf5-kdepimlibs-kio-plugins, ${kde-l10n:all}
 Description: mail transport service library
  Mailtransport is a library that provides the following functionality:
  .
