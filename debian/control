@@ -96,7 +96,7 @@ Description: mail transport service library - data files
 Package: libkf5mailtransport-dev
 Section: libdevel
 Architecture: any
-Multi-Arch: foreign
+Multi-Arch: same
 Depends: libkf5akonadimime-dev (>= 4:17.08.3~),
          libkf5mailtransport5 (= ${binary:Version}),
          libkf5mailtransportakonadi5 (= ${binary:Version}),

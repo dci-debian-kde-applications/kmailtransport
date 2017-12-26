@@ -4,6 +4,7 @@ kmailtransport (17.08.3-2) UNRELEASED; urgency=medium
   * Remove the kdepimlibs-kio-plugins breaks/replaces, since that package is
     for kdepimlibs 4.x.
   * Simplify watch file, and switch it to https.
+  * Properly mark libkf5mailtransport-dev as Multi-Arch: same.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 26 Dec 2017 01:17:16 +0100
 
