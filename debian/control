@@ -45,7 +45,7 @@ Description: mail transport service KCM
 
 Package: kio-smtp
 Architecture: any
-Multi-Arch: no
+Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Replaces: kf5-kdepimlibs-kio-plugins, ${kde-l10n:all}
 Breaks: kf5-kdepimlibs-kio-plugins, ${kde-l10n:all}
