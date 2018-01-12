@@ -135,16 +135,9 @@ Description: mail transport service library for akonadi
  into your application to provide mail transport configuration.
 
 Package: kio-smtp
-Architecture: any
-Multi-Arch: no
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: kdepimlibs-kio-plugins, kf5-kdepimlibs-kio-plugins, ${kde-l10n:all}
-Breaks: kdepimlibs-kio-plugins, kf5-kdepimlibs-kio-plugins, ${kde-l10n:all}
-Description: mail transport service library
- Mailtransport is a library that provides the following functionality:
- .
-  * Shared mail transport settings.
-  * GUI elements to configure mail transport settings.
-  * Job classes for mail sending.
- .
- This package contains the smtp kio slave.
+Section: oldlibs
+Architecture: all
+Priority: extra
+Depends: libkf5mailtransport5, ${misc:Depends}
+Description: transitional package
+ This is a transitional package. It can safely be removed.
