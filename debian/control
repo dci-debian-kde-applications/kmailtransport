@@ -135,6 +135,14 @@ Description: mail transport service library for akonadi
  into your application to provide mail transport configuration.
 
 Package: kio-smtp
+<<<<<<< HEAD
+Section: oldlibs
+Architecture: all
+Priority: extra
+Depends: libkf5mailtransport5, ${misc:Depends}
+Description: transitional package
+ This is a transitional package. It can safely be removed.
+=======
 Architecture: any
 Multi-Arch: no
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -148,3 +156,4 @@ Description: mail transport service library
   * Job classes for mail sending.
  .
  This package contains the smtp kio slave.
+>>>>>>> parent of 21559d6... Revert "Add back kio-smtp in lts as ksmtp does not exist yet."
