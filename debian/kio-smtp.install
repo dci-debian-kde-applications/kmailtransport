@@ -1,5 +1,3 @@
-etc/xdg/kmailtransport.categories
-etc/xdg/kmailtransport.renamecategories
 usr/lib/*/qt5/plugins/kf5/kio/smtp.so
 usr/share/doc/HTML/*/kioslave5/smtp/index.cache.bz2
 usr/share/doc/HTML/*/kioslave5/smtp/index.docbook
