@@ -1,0 +1,8 @@
+etc/xdg/kmailtransport.categories
+etc/xdg/kmailtransport.renamecategories
+usr/lib/*/qt5/plugins/kf5/kio/smtp.so
+usr/share/doc/HTML/*/kioslave5/smtp/index.cache.bz2
+usr/share/doc/HTML/*/kioslave5/smtp/index.docbook
+usr/share/kservices5/smtp.protocol
+usr/share/kservices5/smtps.protocol
+usr/share/locale/*/LC_MESSAGES/kio_smtp.mo
